@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+        <header>
+            <img src="./imagens/agenda1.webp" alt="imagem de uma agenda">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <section>
+            <div>
+                <img class="ilustracao" src="./imagens/agenda1.webp" alt="imagem de uma agenda">
+            </div>
+        </section>
+        <form id="form-atividade"> 
+            <label for="nome-usuario">Nome: </label>
+            <input type="text" placeholder="Insira um nome" id="nome-usuario" required>
+            <label for="numero-telefone">Telefone: </label>
+            <input type="tel" placeholder="Insira um número de telefone válido" required id="numero-telefone">
+            <label for="email-usuario">Email: </label>
+            <input type="email" id="email-usuario" required placeholder="Insira e-mail válido">
+            <button type="submit">Cadastrar</button>
+        </form>
+        <section>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Contatos</h3>
+                    <p>Endereço: Rua Florianópolis, 1010</p>
+                    <p>Telefone: (83) 0987-6543</p>
+                    <p>Email: agendadecontatos@exemplo.com</p>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2024 Agenda de Contatos. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>        
+    <script src="./main.js"></script>
+</body>
+</html>
